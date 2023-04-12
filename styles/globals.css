@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,10 +10,16 @@
 
 html,
 body {
-  max-width: 100vw;
+  min-width: 100vw;
+  min-height: 100vh;
   overflow-x: hidden;
-  background-color: #EAE7DC;
-  color: #E98074;
+  /* background-color: #EAE7DC; */
+  background-image: url("../assets/will-porada-eM3YNw__OAU-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #323228;
+  font-family: 'Oswald', sans-serif;
 }
 
 a {
@@ -29,6 +38,12 @@ nav {
   padding: 16px;
   justify-content: space-between;
   align-items: center;
+  background-color: #323228c6;
+  color: #D5D4DA;
+}
+
+.nav h1 {
+  font-family: 'Bakbak One', cursive;
 }
 
 .nav__menu-bar {
@@ -42,7 +57,6 @@ nav {
   width: 40px;
   height: 4px;
   border-radius: 2px;
-  background-color: #E98074;
 }
 
 .nav__menu-list {
