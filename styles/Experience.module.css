@@ -3,11 +3,18 @@
     flex-direction: column;
 }
 
+.header {
+    align-self: flex-end;
+    text-decoration: underline;
+    margin-right: 2%;
+}
+
 .card {
-    padding: 1rem 1.2rem;
+    /* padding: .5rem .6rem; */
     border-radius: 10%;
-    background: rgba(var(--card-rgb), 0);
-    border: 1px solid #8E8D8A;
+    background-color: #77807Ff0;
+    /* border: 3px solid #323228; */
+    /* box-shadow: 1px 3px #323228; */
     margin: 2%;
     display: flex;
     flex-direction: column;
@@ -15,10 +22,9 @@
 }
 
 .card_image {
-    display: flex;
-    flex-direction: column;
     max-width:  100%;
     height: auto;
+    border-radius: 10%;
 }
 
 .card h5 {
