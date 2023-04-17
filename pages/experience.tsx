@@ -18,11 +18,10 @@ export default function Experience() {
                     </Link>
                     <h4>Citizens Coal Council</h4>
                     <h5>Volunteer</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit distinctio error cupiditate itaque aliquid, repellat quisquam vitae perspiciatis consequatur natus magnam blanditiis perferendis placeat, possimus quae incidunt odit? Quia, deleniti!
-                    Recusandae impedit repellendus excepturi aperiam nostrum, minus quasi! Quisquam laboriosam nostrum veniam laborum, praesentium eveniet, ad fugiat aperiam quia tempore illo iusto deleniti similique beatae corrupti a veritatis necessitatibus explicabo.
-                    Facilis laboriosam ex cumque quis at provident error odit iste molestias? Minima provident explicabo aliquid reprehenderit velit vitae, doloribus distinctio ipsa consequatur obcaecati repellat. Repellendus praesentium cupiditate pariatur corporis doloribus!
-                    Ducimus unde, necessitatibus, labore in eaque expedita assumenda quisquam, itaque voluptates earum voluptate minima! Aspernatur praesentium maxime quisquam aut vitae, porro dicta itaque sapiente, nostrum dolore accusamus nemo? Sit, animi.
-                    Dignissimos ea quaerat harum necessitatibus! Voluptatem, sed error fuga cupiditate culpa consequuntur quis a quia et nemo modi sequi placeat explicabo corrupti esse suscipit, numquam est rerum excepturi, laboriosam veritatis?</p>
+                    <ul>
+                        <li>filler</li>
+                        <li>more filler</li>
+                    </ul>
                 </section>
                 <section className={styles.card}>
                     <Link href="https://www.themusicofclaire.com/" target="_blank">
@@ -33,10 +32,13 @@ export default function Experience() {
                             />
                     </Link>
                     <h4>The Music of Claire</h4>
-                    <h5>Developer</h5>
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit distinctio error cupiditate itaque aliquid, repellat quisquam vitae perspiciatis consequatur natus magnam blanditiis perferendis placeat, possimus quae incidunt odit? Quia, deleniti! Recusandae impedit repellendus excepturi aperiam nostrum, minus quasi! Quisquam laboriosam nostrum veniam laborum, praesentium eveniet, ad fugiat aperiam quia tempore illo iusto deleniti similique beatae corrupti a veritatis necessitatibus explicabo. Facilis laboriosam ex cumque quis at provident error odit iste molestias? Minima provident explicabo aliquid reprehenderit velit vitae, doloribus distinctio ipsa consequatur obcaecati repellat. Repellendus praesentium cupiditate pariatur corporis doloribus! Ducimus unde, necessitatibus, labore in eaque expedita assumenda quisquam, itaque voluptates earum voluptate minima! Aspernatur praesentium maxime quisquam aut vitae, porro dicta itaque sapiente, nostrum dolore accusamus nemo? Sit, animi. Dignissimos ea quaerat harum necessitatibus! Voluptatem, sed error fuga cupiditate culpa consequuntur quis a quia et nemo modi sequi placeat explicabo corrupti esse suscipit, numquam est rerum excepturi, laboriosam veritatis?
-                    </p>
+                    <h5>Web Developer</h5>
+                    <ul>
+                        <li>Communicated with client to design an application to fit their needs</li>
+                        <li>Utilized HTML, CSS, Javascript, and Bootstrap to build a responsive application depicting client’s unique brand</li>
+                        <li>Maintained frequent communication to ensure timeframe of project completion remain on target</li>
+                        <li>Performed search engine optimization research to enhance page ranking of client</li>
+                    </ul>
                 </section>
             </div>
     );
