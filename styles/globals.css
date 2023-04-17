@@ -14,11 +14,10 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   /* background-color: #EAE7DC; */
-  background-image: url("../assets/will-porada-eM3YNw__OAU-unsplash.jpg");
+  background-image: url("../assets/jr-korpa-cJljbGYLTAI-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  color: #323228;
+  color: #26012A;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -38,8 +37,8 @@ nav {
   padding: 16px;
   justify-content: space-between;
   align-items: center;
-  background-color: #323228c6;
-  color: #D5D4DA;
+  background-color: #26012Ac6;
+  color: #E7D1B7;
 }
 
 .nav h1 {
