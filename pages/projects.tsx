@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styles from '../styles/Projects.module.css';
 import birthdayStart from '../assets/balloonStart.png';
 import bob from '../assets/loginPage.png';
+import rc from '../assets/RC-Social Login.png';
 
 export default function Projects () {
     return (
@@ -17,13 +18,24 @@ export default function Projects () {
                     />
                 </Link>
                 <h4>Birthday Extravaganza</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit distinctio error cupiditate itaque aliquid, repellat quisquam vitae perspiciatis consequatur natus magnam blanditiis perferendis placeat, possimus quae incidunt odit? Quia, deleniti!
-                    Recusandae impedit repellendus excepturi aperiam nostrum, minus quasi! Quisquam laboriosam nostrum veniam laborum, praesentium eveniet, ad fugiat aperiam quia tempore illo iusto deleniti similique beatae corrupti a veritatis necessitatibus explicabo.
-                    Facilis laboriosam ex cumque quis at provident error odit iste molestias? Minima provident explicabo aliquid reprehenderit velit vitae, doloribus distinctio ipsa consequatur obcaecati repellat. Repellendus praesentium cupiditate pariatur corporis doloribus!
-                    Ducimus unde, necessitatibus, labore in eaque expedita assumenda quisquam, itaque voluptates earum voluptate minima! Aspernatur praesentium maxime quisquam aut vitae, porro dicta itaque sapiente, nostrum dolore accusamus nemo? Sit, animi.
-                    Dignissimos ea quaerat harum necessitatibus! Voluptatem, sed error fuga cupiditate culpa consequuntur quis a quia et nemo modi sequi placeat explicabo corrupti esse suscipit, numquam est rerum excepturi, laboriosam veritatis?
-                </p>
+                <ul>
+                    <li>filler</li>
+                    <li>more filler</li>
+                </ul>
+            </section>
+            <section className={styles.card}>
+                <Link href="https://github.com/mander-pander/rc-social" target="_blank">
+                    <Image
+                        alt="Github Repo for RC-Social Project"
+                        src={rc}
+                        className={styles.card_image}
+                    />
+                </Link>
+                <h4>RC-Social</h4>
+                <ul>
+                    <li>Allows users to safely create accounts, socialize with other rc airplane enthusiasts, filter through airfields and save airplane models to a private wishlist for safekeeping</li>
+                    <li>Technologies used: React, Node.js, Express.js, Axios, PostgreSQL, Bootstrap, CSS Modules, bcrypt, JSON Web Token</li>
+                </ul>
             </section>
             <section className={styles.card}>
                 <Link href="https://github.com/mander-pander/bobsBurgers" target="_blank">
@@ -34,13 +46,11 @@ export default function Projects () {
                     />
                 </Link>
                 <h4>Bob`s Burgers Generator</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit distinctio error cupiditate itaque aliquid, repellat quisquam vitae perspiciatis consequatur natus magnam blanditiis perferendis placeat, possimus quae incidunt odit? Quia, deleniti!
-                    Recusandae impedit repellendus excepturi aperiam nostrum, minus quasi! Quisquam laboriosam nostrum veniam laborum, praesentium eveniet, ad fugiat aperiam quia tempore illo iusto deleniti similique beatae corrupti a veritatis necessitatibus explicabo.
-                    Facilis laboriosam ex cumque quis at provident error odit iste molestias? Minima provident explicabo aliquid reprehenderit velit vitae, doloribus distinctio ipsa consequatur obcaecati repellat. Repellendus praesentium cupiditate pariatur corporis doloribus!
-                    Ducimus unde, necessitatibus, labore in eaque expedita assumenda quisquam, itaque voluptates earum voluptate minima! Aspernatur praesentium maxime quisquam aut vitae, porro dicta itaque sapiente, nostrum dolore accusamus nemo? Sit, animi.
-                    Dignissimos ea quaerat harum necessitatibus! Voluptatem, sed error fuga cupiditate culpa consequuntur quis a quia et nemo modi sequi placeat explicabo corrupti esse suscipit, numquam est rerum excepturi, laboriosam veritatis?
-                </p>
+                <ul>
+                    <li>Allows users to create accounts and search through the available characters and burgers of the day from the show Bob`s Burgers</li>
+                    <li>Interactive site that allows users to save favorites from each category</li>
+                    <li>Technologies used: HTML/CSS, JS, PostgreSQL and Express</li>
+                </ul>
             </section>
 
         </div>
