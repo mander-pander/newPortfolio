@@ -56,6 +56,7 @@ nav {
   width: 40px;
   height: 4px;
   border-radius: 2px;
+  background-color: #E7D1B7;
 }
 
 .nav__menu-list {
@@ -63,12 +64,13 @@ nav {
   flex-direction: column;
   position: fixed;
   top: 60px;
-  width: 288px;
+  width: 100vw;
   row-gap: 24px;
-  right: -288px;
+  right: -100vw;
   padding: 24px 16px;
   transition: all 0.2s;
   min-height: calc(100vh - 60px);
+  background-color: #26012Ac6;
 }
 
 .nav__menu-list.active {
