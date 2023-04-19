@@ -2,20 +2,37 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Projects.module.css';
 import birthdayStart from '../assets/balloonStart.png';
+import welcome from '../assets/welcome.png';
 import bob from '../assets/loginPage.png';
 import rc from '../assets/RC-Social Login.png';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Projects () {
     return (
         <div className={styles.container}>
             <h2 className={styles.header}>Projects</h2>
             <section className={styles.card}>
+                <Carousel>
+                    <div>
+                        <Image
+                            alt=""
+                            src={welcome}
+                            className={styles.card_image}
+                        />
+                        <p>balloon start page</p>
+                    </div>
+                    <div>
+                        <Image
+                            alt=""
+                            src={birthdayStart}
+                            className={styles.card_image}
+                        />
+                        <p>home page</p>
+                    </div>
+                </Carousel>
                 <Link href="https://birthday-extravaganza.netlify.app/" target="_blank">
-                    <Image
-                        alt="Homepage for Birthday Extravaganza"
-                        src={birthdayStart}
-                        className={styles.card_image}
-                    />
+                    Link to live site.
                 </Link>
                 <h4>Birthday Extravaganza</h4>
                 <ul>
