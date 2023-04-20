@@ -34,35 +34,53 @@ export default function Projects () {
                 <Link href="https://birthday-extravaganza.netlify.app/" target="_blank">
                     Link to live site.
                 </Link>
-                <h4>Birthday Extravaganza</h4>
+                <h2>Birthday Extravaganza</h2>
                 <ul>
                     <li>filler</li>
                     <li>more filler</li>
                 </ul>
             </section>
             <section className={styles.card}>
+                <Carousel>
+                    <div>
+                        <Image
+                            alt="RC-Social Home Page"
+                            src={rc}
+                            className={styles.card_image}
+                        />
+                        <p className={styles.picDesc}>RC-Social Login Page</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </Carousel>
                 <Link href="https://github.com/mander-pander/rc-social" target="_blank">
-                    <Image
-                        alt="Github Repo for RC-Social Project"
-                        src={rc}
-                        className={styles.card_image}
-                    />
+                    Link to Github Repo
                 </Link>
-                <h4>RC-Social</h4>
+                <h2>RC-Social</h2>
                 <ul>
                     <li>Allows users to safely create accounts, socialize with other rc airplane enthusiasts, filter through airfields and save airplane models to a private wishlist for safekeeping</li>
                     <li>Technologies used: React, Node.js, Express.js, Axios, PostgreSQL, Bootstrap, CSS Modules, bcrypt, JSON Web Token</li>
                 </ul>
             </section>
             <section className={styles.card}>
-                <Link href="https://github.com/mander-pander/bobsBurgers" target="_blank">
+                <Carousel>
+                    <div>
                     <Image
-                        alt="Github Repo for Bob's Burger Project"
+                        alt="Login Page"
                         src={bob}
                         className={styles.card_image}
                     />
+                    <p>Login Page</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </Carousel>
+                <Link href="https://github.com/mander-pander/bobsBurgers" target="_blank">
+                    Link to Github Repo
                 </Link>
-                <h4>Bob`s Burgers Generator</h4>
+                <h2>Bob`s Burgers Generator</h2>
                 <ul>
                     <li>Allows users to create accounts and search through the available characters and burgers of the day from the show Bob`s Burgers</li>
                     <li>Interactive site that allows users to save favorites from each category</li>
