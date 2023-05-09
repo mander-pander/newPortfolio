@@ -17,6 +17,8 @@
   flex-direction: column;
   align-items: center;
   font-size: x-large;
+  background-color: #26012Ad6;
+  padding-bottom: 3%;
 }
 
 
@@ -24,11 +26,16 @@
   font-size: x-large;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  text-align: center;
+  background-color: #26012Ad6;
+
 }
 
 .title {
+  margin-top: 3%;
   padding-top: 3%;
   text-align: center;
   text-decoration: underline;
   font-size: x-large;
+  background-color: #26012Ad6;
 }
