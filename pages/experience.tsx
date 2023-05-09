@@ -19,8 +19,9 @@ export default function Experience() {
                     <h4>Citizens Coal Council</h4>
                     <h5>Volunteer</h5>
                     <ul>
-                        <li>filler</li>
-                        <li>more filler</li>
+                        <li>Created a new eye-catching and aesthetic design to help drive donations and membership</li>
+                        <li>Increased traffic and engagement through improved user experience and SEO</li>
+                        <li>Provided training to organization leaders on how to update crucial content for members</li>
                     </ul>
                 </section>
                 <section className={styles.card}>
