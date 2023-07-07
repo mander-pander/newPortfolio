@@ -4,8 +4,8 @@ import styles from '../styles/Projects.module.css';
 import birthdayStart from '../assets/balloonStart.png';
 import welcome from '../assets/welcome.png';
 import bob from '../assets/loginPage.png';
+import candleGame from '../assets/candle-game.png';
 import rc from '../assets/RC-Social Login.png';
-import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Projects () {
@@ -13,47 +13,40 @@ export default function Projects () {
         <div className={styles.container}>
             <h2 className={styles.header}>Projects</h2>
             <section className={styles.card}>
-                <Carousel>
-                    <div>
-                        <Image
-                            alt=""
-                            src={welcome}
-                            className={styles.card_image}
-                        />
-                        <p>balloon start page</p>
-                    </div>
-                    <div>
-                        <Image
-                            alt=""
-                            src={birthdayStart}
-                            className={styles.card_image}
-                        />
-                        <p>home page</p>
-                    </div>
-                </Carousel>
+                <h2>Stitch N Track</h2>
+                <h4>-- In Progress --</h4>
+
+            </section>
+            <section className={styles.card}>
+                <div className={styles.picContainer}>
+                            <Image
+                                alt="balloon game start"
+                                src={birthdayStart}
+                                className={styles.card_image}
+                            />
+                </div>
                 <Link href="https://birthday-extravaganza.netlify.app/" target="_blank">
                     Link to live site.
                 </Link>
                 <h2>Birthday Extravaganza</h2>
                 <ul>
-                    <li>filler</li>
-                    <li>more filler</li>
+                    <li>
+                        Developed a series of games utilizing React to have a special birthday celebration
+                    </li>
+                    <li>
+                        React hooks allow for a seamless user experience by allowing state to be passed through the application in the form of props
+                    </li>
+                    <li>
+                        Created animations with the use of animation package GSAP
+                    </li>
                 </ul>
             </section>
             <section className={styles.card}>
-                <Carousel>
-                    <div>
                         <Image
                             alt="RC-Social Home Page"
                             src={rc}
                             className={styles.card_image}
                         />
-                        <p className={styles.picDesc}>RC-Social Login Page</p>
-                    </div>
-                    <div>
-
-                    </div>
-                </Carousel>
                 <Link href="https://github.com/mander-pander/rc-social" target="_blank">
                     Link to Github Repo
                 </Link>
@@ -64,19 +57,14 @@ export default function Projects () {
                 </ul>
             </section>
             <section className={styles.card}>
-                <Carousel>
                     <div>
                     <Image
                         alt="Login Page"
                         src={bob}
                         className={styles.card_image}
                     />
-                    <p>Login Page</p>
                     </div>
-                    <div>
 
-                    </div>
-                </Carousel>
                 <Link href="https://github.com/mander-pander/bobsBurgers" target="_blank">
                     Link to Github Repo
                 </Link>
