@@ -2,12 +2,29 @@ import Image from 'next/image';
 import Link from 'next/link';
 import claire from '../assets/musicofclaire.png';
 import ccc from '../assets/ccc.png';
+import ghi from '../assets/GHIhome.png';
 import styles from '../styles/Experience.module.css';
 
 export default function Experience() {
     return (
         <div className={styles.container}>
             <h2 className={styles.header}>Professional Experience</h2>
+                <section className={styles.card}>
+                    <Link href="https://gardensforhealth.org/" target="_blank">
+                        <Image
+                            alt="Homepage for Gardens For Health"
+                            src={ghi}
+                            className={styles.card_image}
+                            />
+                    </Link>
+                    <h4>Gardens for Health International</h4>
+                    <h5>Volunteer</h5>
+                    <ul>
+                        <li>lalalalala</li>
+                        <li>lalalala</li>
+                        <li>lalalalala</li>
+                    </ul>
+                </section>
                 <section className={styles.card}>
                     <Link href="https://www.citizenscoalcouncil.org/" target="_blank">
                         <Image
