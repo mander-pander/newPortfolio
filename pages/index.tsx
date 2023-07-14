@@ -27,7 +27,7 @@ export default function Home() {
             <IoLogoGithub />
             </Link>
           </div>
-          
+
           <h5 className={styles.location}><IoMdPin /> Sacramento, CA</h5>
         </div>
 
@@ -43,7 +43,7 @@ export default function Home() {
           <p><SiHtml5 /> HTML</p>
           <p><SiCss3 /> CSS</p>
           <p><SiExpress /> Express.js</p>
-          <p><SiPostgresql /> PostgresSQL</p>
+          <p><SiPostgresql /> PostgreSQL</p>
           <p><SiGit /> Git</p>
           <p><SiGithub /> Github</p>
         </div>
