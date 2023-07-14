@@ -50,6 +50,11 @@
 }
 
 @media (min-width: 960px) {
+  .main {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
   .info {
     display: grid;
     grid-template-columns: 38% 62%;
@@ -75,5 +80,14 @@
     flex-direction: column;
     justify-self: center;
     align-self: center;
+  }
+
+  .skills {
+    column-gap: normal;
+  }
+
+  .title {
+    font-size: xxx-large;
+    text-align: left;
   }
 }
