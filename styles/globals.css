@@ -10,15 +10,15 @@
 
 html,
 body {
-  min-width: 100vw;
-  min-height: 100vh;
+  /* min-width: 100%;
+  min-height: 100%; */
   overflow-x: hidden;
-  /* background-color: #EAE7DC; */
-  /* background-image: url("../assets/jr-korpa-cJljbGYLTAI-unsplash.jpg"); */
+  background-image: linear-gradient(to bottom, #000, #01010a42), url("../assets/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+  background-position: bottom;
+  background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #26012A;
-  color: #26012A;
+  color: #e0f0ea;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -38,8 +38,7 @@ nav {
   padding: 16px;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #26012Ac6; */
-  color: #E7D1B7;
+  color: #e0f0ea;
 }
 
 .nav h1 {
@@ -57,7 +56,7 @@ nav {
   width: 40px;
   height: 4px;
   border-radius: 2px;
-  background-color: #E7D1B7;
+  background-color: #e0f0ea;
 }
 
 .nav__menu-list {
@@ -75,7 +74,6 @@ nav {
 
 .nav__menu-list.active {
   right: 0;
-  background-color: #26012Ac6;
 }
 
 .nav__link {
@@ -88,12 +86,12 @@ nav {
   font-weight: bold;
 }
 
-.center {
+/* .center {
   min-height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .nav__menu-bar {
