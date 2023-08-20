@@ -2,9 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Projects.module.css';
 import birthdayStart from '../assets/balloonStart.png';
-import welcome from '../assets/welcome.png';
 import bob from '../assets/loginPage.png';
-import candleGame from '../assets/candle-game.png';
+import newProj from '../assets/knitting-app/new-project.jpg';
 import rc from '../assets/RC-Social Login.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -13,18 +12,21 @@ export default function Projects () {
         <div className={styles.container}>
             <h2 className={styles.header}>Projects</h2>
             <section className={styles.card}>
+                            <Image
+                                alt="add project page"
+                                src={newProj}
+                                className={styles.card_image}
+                            />
                 <h2>Stitch N Track</h2>
                 <h4>-- In Progress --</h4>
 
             </section>
             <section className={styles.card}>
-                <div className={styles.picContainer}>
                             <Image
                                 alt="balloon game start"
                                 src={birthdayStart}
                                 className={styles.card_image}
                             />
-                </div>
                 <Link href="https://birthday-extravaganza.netlify.app/" target="_blank">
                     Link to live site.
                 </Link>
@@ -57,14 +59,11 @@ export default function Projects () {
                 </ul>
             </section>
             <section className={styles.card}>
-                    <div>
                     <Image
                         alt="Login Page"
                         src={bob}
                         className={styles.card_image}
                     />
-                    </div>
-
                 <Link href="https://github.com/mander-pander/bobsBurgers" target="_blank">
                     Link to Github Repo
                 </Link>
