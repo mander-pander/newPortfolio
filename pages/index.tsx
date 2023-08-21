@@ -28,24 +28,26 @@ export default function Home() {
             </Link>
           </div>
 
-          <h5 className={styles.location}><IoMdPin /> Sacramento, CA</h5>
+          <h5 className={styles.location}><IoMdPin /> Western Michigan</h5>
         </div>
 
       </div>
       <div className={styles.skillContainer}>
-        <h3 className={styles.title}>Skills</h3>
-        <div className={styles.skills}>
-          <p><SiReact /> React</p>
-          <p><SiNextdotjs /> Next.js</p>
-          <p><SiTypescript /> Typescript</p>
-          <p><SiJavascript /> Javascript</p>
-          <p><SiNodedotjs /> Node.js</p>
-          <p><SiHtml5 /> HTML</p>
-          <p><SiCss3 /> CSS</p>
-          <p><SiExpress /> Express.js</p>
-          <p><SiPostgresql /> PostgreSQL</p>
-          <p><SiGit /> Git</p>
-          <p><SiGithub /> Github</p>
+        <div className={styles.container}>
+          <h3 className={styles.title}>Skills</h3>
+          <div className={styles.skills}>
+            <p><SiReact /> React</p>
+            <p><SiNextdotjs /> Next.js</p>
+            <p><SiTypescript /> Typescript</p>
+            <p><SiJavascript /> JavaScript</p>
+            <p><SiNodedotjs /> Node.js</p>
+            <p><SiHtml5 /> HTML</p>
+            <p><SiCss3 /> CSS</p>
+            <p><SiExpress /> Express.js</p>
+            <p><SiPostgresql /> PostgreSQL</p>
+            <p><SiGit /> Git</p>
+            <p><SiGithub /> GitHub</p>
+          </div>
         </div>
       </div>
 
