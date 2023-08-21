@@ -18,9 +18,14 @@ export default function Projects () {
                                 className={styles.card_image}
                             />
                 <h2>Stitch N Track</h2>
-                <h4>-- In Progress --</h4>
+                <ul>
+
+                </ul>
 
             </section>
+
+            <hr className={styles.divider}></hr>
+
             <section className={styles.card}>
                             <Image
                                 alt="balloon game start"
@@ -43,6 +48,9 @@ export default function Projects () {
                     </li>
                 </ul>
             </section>
+
+            <hr className={styles.divider}></hr>
+
             <section className={styles.card}>
                         <Image
                             alt="RC-Social Home Page"
@@ -58,6 +66,9 @@ export default function Projects () {
                     <li>Technologies used: React, Node.js, Express.js, Axios, PostgreSQL, Bootstrap, CSS Modules, bcrypt, JSON Web Token</li>
                 </ul>
             </section>
+
+            <hr className={styles.divider}></hr>
+            
             <section className={styles.card}>
                     <Image
                         alt="Login Page"
