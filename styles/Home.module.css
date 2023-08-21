@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  align-items: center;
 }
 
 .info {
@@ -27,7 +28,6 @@
 }
 
 .skillContainer {
-  margin: 5%;
   align-self: center;
   min-width: 75%;
 }
@@ -51,28 +51,39 @@
   .main {
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 10%;
   }
 
   .info {
     display: grid;
-    grid-template-columns: 38% 62%;
+    grid-template-columns: 45% 55%;
     grid-template-rows: auto;
     grid-template-areas:
       "avatar name";
       /* "avatar social"; */
     font-size: x-large;
-    padding-bottom: 3%;
+    animation: border-flicker 1.5s infinite alternate;
+    border: 0.2rem solid #C399FF;
+    border-radius: 2rem;
+    margin-top: 10%;
+    padding: 1.4em;
+    box-shadow: 0 0 .2rem #C399FF,
+              0 0 .2rem #C399FF,
+              0 0 2rem #D62C92,
+              0 0 0.8rem #D62C92,
+              0 0 2.8rem #D62C92,
+              inset 0 0 1.3rem #D62C92;
   }
 
   .avatar {
     width: 40vw;
     height: fit-content;
-    /* justify-self: center; */
+    justify-self: center;
     grid-area: avatar;
   }
 
   .basic {
-    grid-template-areas: name;
+    grid-area: name;
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -96,4 +107,45 @@
   .title {
     font-size: xxx-large;
   }
+
+  @keyframes border-flicker {
+    0% {
+      opacity:0.1;
+      -webkit-box-shadow: 0px 0px 78px 4px #63103ebd;
+  -moz-box-shadow: 0px 0px 78px 4px #D62C92bd;
+  box-shadow: 0px 0px 78px 4px #c399ffbd;
+    }
+    2% {
+      opacity:1;
+      -webkit-box-shadow: 0px 0px 78px 4px #63103ebd;
+  -moz-box-shadow: 0px 0px 78px 4px #D62C92bd;
+  box-shadow: 0px 0px 78px 4px #c399ffbd;
+    }
+    4% {
+      opacity:0.1;
+      -webkit-box-shadow: 0px 0px 78px 4px #63103ebd;
+  -moz-box-shadow: 0px 0px 78px 4px #D62C92bd;
+  box-shadow: 0px 0px 78px 4px #c399ffbd;
+    }
+
+    8% {
+      opacity:1;
+      -webkit-box-shadow: 0px 0px 78px 4px #63103ebd;
+  -moz-box-shadow: 0px 0px 78px 4px #D62C92bd;
+  box-shadow: 0px 0px 78px 4px #c399ffbd;
+    }
+    70% {
+      opacity:0.7;
+      -webkit-box-shadow: 0px 0px 78px 4px #63103ebd;
+  -moz-box-shadow: 0px 0px 78px 4px #D62C92bd;
+  box-shadow: 0px 0px 78px 4px #c399ffbd;
+    }
+    100% {
+      opacity:1;
+      -webkit-box-shadow: 0px 0px 78px 4px #63103ebd;
+  -moz-box-shadow: 0px 0px 78px 4px #D62C92bd;
+  box-shadow: 0px 0px 78px 4px #c399ffbd;
+    }
+  }
+
 }
