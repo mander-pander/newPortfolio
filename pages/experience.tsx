@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image';
 import Link from 'next/link';
 import claire from '../assets/musicofclaire.png';
@@ -47,7 +48,7 @@ export default function Experience() {
 
 
                 <hr className={styles.divider}></hr>
-                
+
                 <section className={styles.card}>
                     <Link href="https://www.themusicofclaire.com/" target="_blank">
                         <Image
