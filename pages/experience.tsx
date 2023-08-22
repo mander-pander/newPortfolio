@@ -20,11 +20,14 @@ export default function Experience() {
                     <h4>Gardens for Health International</h4>
                     <h5>Volunteer</h5>
                     <ul>
-                        <li>lalalalala</li>
-                        <li>lalalala</li>
-                        <li>lalalalala</li>
+                    <li>Improved accessibility of existing content using Web Content Accessibility Guidelines</li>
+                    <li>Collaborated with designer to develop additional features to display information in concise and compelling manner to progress the organization's mission</li>
+                    <li>Provided training to organization leaders on how to update crucial content for members to remove roadblocks for simple changes</li>
                     </ul>
                 </section>
+
+                <hr className={styles.divider}></hr>
+
                 <section className={styles.card}>
                     <Link href="https://www.citizenscoalcouncil.org/" target="_blank">
                         <Image
@@ -37,10 +40,14 @@ export default function Experience() {
                     <h5>Volunteer</h5>
                     <ul>
                         <li>Created a new eye-catching and aesthetic design to help drive donations and membership</li>
-                        <li>Increased traffic and engagement through improved user experience and SEO</li>
-                        <li>Provided training to organization leaders on how to update crucial content for members</li>
+                        <li>Increased traffic and engagement through improved user experience and search engine optimization</li>
+                        <li>Provided training to organization leaders on how to update crucial content for members to remove roadblocks for simple changes</li>
                     </ul>
                 </section>
+
+
+                <hr className={styles.divider}></hr>
+                
                 <section className={styles.card}>
                     <Link href="https://www.themusicofclaire.com/" target="_blank">
                         <Image
