@@ -13,7 +13,7 @@ body {
   min-width: 100%;
   min-height: 100%;
   overflow-x: hidden;
-  background-image: linear-gradient(to bottom, #000 30%, #01010a8c), url("../assets/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+  background-image: linear-gradient(to bottom, #000 30%, #01010a8c), url("/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
   /* background-color: #00000001; */
   background-position: 0 60px;
   background-blend-mode: multiply;
