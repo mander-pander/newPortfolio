@@ -21,6 +21,7 @@ body {
   background-repeat: no-repeat;
   color: #e0f0ea;
   font-family: 'Oswald', sans-serif;
+  margin-bottom: 5%;
 }
 
 a {
@@ -75,6 +76,7 @@ nav {
 
 .nav__menu-list.active {
   right: 0;
+  background-color: black;
 }
 
 .nav__link {
